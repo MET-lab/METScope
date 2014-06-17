@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3385791950B8CE00055E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3385781950B8CE00055E74 /* Foundation.framework */; };
+		1F33857B1950B8CE00055E74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F33857A1950B8CE00055E74 /* CoreGraphics.framework */; };
+		1F33857D1950B8CE00055E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F33857C1950B8CE00055E74 /* UIKit.framework */; };
+		1F3385831950B8CE00055E74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385811950B8CE00055E74 /* InfoPlist.strings */; };
+		1F3385851950B8CE00055E74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385841950B8CE00055E74 /* main.m */; };
+		1F3385891950B8CE00055E74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385881950B8CE00055E74 /* AppDelegate.m */; };
+		1F33858C1950B8CE00055E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F33858A1950B8CE00055E74 /* Main.storyboard */; };
+		1F33858F1950B8CE00055E74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33858E1950B8CE00055E74 /* ViewController.m */; };
+		1F3385911950B8CE00055E74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385901950B8CE00055E74 /* Images.xcassets */; };
+		1F3385981950B8CE00055E74 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3385971950B8CE00055E74 /* XCTest.framework */; };
+		1F3385991950B8CE00055E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3385781950B8CE00055E74 /* Foundation.framework */; };
+		1F33859A1950B8CE00055E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F33857C1950B8CE00055E74 /* UIKit.framework */; };
+		1F3385A21950B8CE00055E74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385A01950B8CE00055E74 /* InfoPlist.strings */; };
+		1F3385A41950B8CE00055E74 /* METScopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385A31950B8CE00055E74 /* METScopeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F33859B1950B8CE00055E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F33856D1950B8CE00055E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F3385741950B8CE00055E74;
+			remoteInfo = METScope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3385751950B8CE00055E74 /* METScope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = METScope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3385781950B8CE00055E74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F33857A1950B8CE00055E74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F33857C1950B8CE00055E74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F3385801950B8CE00055E74 /* METScope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "METScope-Info.plist"; sourceTree = "<group>"; };
+		1F3385821950B8CE00055E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F3385841950B8CE00055E74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F3385861950B8CE00055E74 /* METScope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "METScope-Prefix.pch"; sourceTree = "<group>"; };
+		1F3385871950B8CE00055E74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F3385881950B8CE00055E74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F33858B1950B8CE00055E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F33858D1950B8CE00055E74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F33858E1950B8CE00055E74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F3385901950B8CE00055E74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F3385961950B8CE00055E74 /* METScopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = METScopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3385971950B8CE00055E74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1F33859F1950B8CE00055E74 /* METScopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "METScopeTests-Info.plist"; sourceTree = "<group>"; };
+		1F3385A11950B8CE00055E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F3385A31950B8CE00055E74 /* METScopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = METScopeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3385721950B8CE00055E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F33857B1950B8CE00055E74 /* CoreGraphics.framework in Frameworks */,
+				1F33857D1950B8CE00055E74 /* UIKit.framework in Frameworks */,
+				1F3385791950B8CE00055E74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3385931950B8CE00055E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3385981950B8CE00055E74 /* XCTest.framework in Frameworks */,
+				1F33859A1950B8CE00055E74 /* UIKit.framework in Frameworks */,
+				1F3385991950B8CE00055E74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F33856C1950B8CE00055E74 = {
+			isa = PBXGroup;
+			children = (
+				1F33857E1950B8CE00055E74 /* METScope */,
+				1F33859D1950B8CE00055E74 /* METScopeTests */,
+				1F3385771950B8CE00055E74 /* Frameworks */,
+				1F3385761950B8CE00055E74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F3385761950B8CE00055E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385751950B8CE00055E74 /* METScope.app */,
+				1F3385961950B8CE00055E74 /* METScopeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3385771950B8CE00055E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385781950B8CE00055E74 /* Foundation.framework */,
+				1F33857A1950B8CE00055E74 /* CoreGraphics.framework */,
+				1F33857C1950B8CE00055E74 /* UIKit.framework */,
+				1F3385971950B8CE00055E74 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F33857E1950B8CE00055E74 /* METScope */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385871950B8CE00055E74 /* AppDelegate.h */,
+				1F3385881950B8CE00055E74 /* AppDelegate.m */,
+				1F33858A1950B8CE00055E74 /* Main.storyboard */,
+				1F33858D1950B8CE00055E74 /* ViewController.h */,
+				1F33858E1950B8CE00055E74 /* ViewController.m */,
+				1F3385901950B8CE00055E74 /* Images.xcassets */,
+				1F33857F1950B8CE00055E74 /* Supporting Files */,
+			);
+			path = METScope;
+			sourceTree = "<group>";
+		};
+		1F33857F1950B8CE00055E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385801950B8CE00055E74 /* METScope-Info.plist */,
+				1F3385811950B8CE00055E74 /* InfoPlist.strings */,
+				1F3385841950B8CE00055E74 /* main.m */,
+				1F3385861950B8CE00055E74 /* METScope-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F33859D1950B8CE00055E74 /* METScopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385A31950B8CE00055E74 /* METScopeTests.m */,
+				1F33859E1950B8CE00055E74 /* Supporting Files */,
+			);
+			path = METScopeTests;
+			sourceTree = "<group>";
+		};
+		1F33859E1950B8CE00055E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F33859F1950B8CE00055E74 /* METScopeTests-Info.plist */,
+				1F3385A01950B8CE00055E74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3385741950B8CE00055E74 /* METScope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3385A71950B8CE00055E74 /* Build configuration list for PBXNativeTarget "METScope" */;
+			buildPhases = (
+				1F3385711950B8CE00055E74 /* Sources */,
+				1F3385721950B8CE00055E74 /* Frameworks */,
+				1F3385731950B8CE00055E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = METScope;
+			productName = METScope;
+			productReference = 1F3385751950B8CE00055E74 /* METScope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F3385951950B8CE00055E74 /* METScopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3385AA1950B8CE00055E74 /* Build configuration list for PBXNativeTarget "METScopeTests" */;
+			buildPhases = (
+				1F3385921950B8CE00055E74 /* Sources */,
+				1F3385931950B8CE00055E74 /* Frameworks */,
+				1F3385941950B8CE00055E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F33859C1950B8CE00055E74 /* PBXTargetDependency */,
+			);
+			name = METScopeTests;
+			productName = METScopeTests;
+			productReference = 1F3385961950B8CE00055E74 /* METScopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F33856D1950B8CE00055E74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jeff Gregorio";
+				TargetAttributes = {
+					1F3385951950B8CE00055E74 = {
+						TestTargetID = 1F3385741950B8CE00055E74;
+					};
+				};
+			};
+			buildConfigurationList = 1F3385701950B8CE00055E74 /* Build configuration list for PBXProject "METScope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F33856C1950B8CE00055E74;
+			productRefGroup = 1F3385761950B8CE00055E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F3385741950B8CE00055E74 /* METScope */,
+				1F3385951950B8CE00055E74 /* METScopeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3385731950B8CE00055E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3385911950B8CE00055E74 /* Images.xcassets in Resources */,
+				1F3385831950B8CE00055E74 /* InfoPlist.strings in Resources */,
+				1F33858C1950B8CE00055E74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3385941950B8CE00055E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3385A21950B8CE00055E74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3385711950B8CE00055E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F33858F1950B8CE00055E74 /* ViewController.m in Sources */,
+				1F3385891950B8CE00055E74 /* AppDelegate.m in Sources */,
+				1F3385851950B8CE00055E74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3385921950B8CE00055E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3385A41950B8CE00055E74 /* METScopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F33859C1950B8CE00055E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F3385741950B8CE00055E74 /* METScope */;
+			targetProxy = 1F33859B1950B8CE00055E74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F3385811950B8CE00055E74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3385821950B8CE00055E74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F33858A1950B8CE00055E74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F33858B1950B8CE00055E74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F3385A01950B8CE00055E74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F3385A11950B8CE00055E74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F3385A51950B8CE00055E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1F3385A61950B8CE00055E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F3385A81950B8CE00055E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "METScope/METScope-Prefix.pch";
+				INFOPLIST_FILE = "METScope/METScope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F3385A91950B8CE00055E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "METScope/METScope-Prefix.pch";
+				INFOPLIST_FILE = "METScope/METScope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F3385AB1950B8CE00055E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/METScope.app/METScope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "METScope/METScope-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "METScopeTests/METScopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1F3385AC1950B8CE00055E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/METScope.app/METScope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "METScope/METScope-Prefix.pch";
+				INFOPLIST_FILE = "METScopeTests/METScopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3385701950B8CE00055E74 /* Build configuration list for PBXProject "METScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3385A51950B8CE00055E74 /* Debug */,
+				1F3385A61950B8CE00055E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3385A71950B8CE00055E74 /* Build configuration list for PBXNativeTarget "METScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3385A81950B8CE00055E74 /* Debug */,
+				1F3385A91950B8CE00055E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F3385AA1950B8CE00055E74 /* Build configuration list for PBXNativeTarget "METScopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3385AB1950B8CE00055E74 /* Debug */,
+				1F3385AC1950B8CE00055E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F33856D1950B8CE00055E74 /* Project object */;
+}
