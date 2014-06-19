@@ -8,6 +8,32 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "METScopeView.h"
+#import "AudioController.h"
+#import "NVLowpassFilter.h"
+
+//#define scaleRatio 2
+
+@interface ViewController : UIViewController <METScopeViewDelegate> {
+    
+    AudioController *audioController;
+    
+    IBOutlet METScopeView *scopeView;
+    IBOutlet UISlider *inputGainSlider;
+    
+    int plotIdx;
+    float *currentXBuffer;
+    
+    float *longScaleXBuffer;
+    float *longScaleYBuffer;
+    
+    UITapGestureRecognizer *tapRecognizer;
+    bool hold;
+    
+    UIPinchGestureRecognizer *pinchRecognizer;
+    CGFloat previousPinchScale;
+    UIPanGestureRecognizer *panRecognizer;
+    CGPoint previousPanLoc;
+}
 
 @end

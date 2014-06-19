@@ -21,6 +21,17 @@
 		1F33859A1950B8CE00055E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F33857C1950B8CE00055E74 /* UIKit.framework */; };
 		1F3385A21950B8CE00055E74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385A01950B8CE00055E74 /* InfoPlist.strings */; };
 		1F3385A41950B8CE00055E74 /* METScopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385A31950B8CE00055E74 /* METScopeTests.m */; };
+		1F3385B21950B9AB00055E74 /* METScopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385B01950B9AB00055E74 /* METScopeView.m */; };
+		1F3385CF1952085300055E74 /* NVLowpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385C11952085300055E74 /* NVLowpassFilter.m */; };
+		1F3385D31952085300055E74 /* NVDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385C91952085300055E74 /* NVDSP.mm */; };
+		1F3385DE19521C8900055E74 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385D719521C8900055E74 /* icon152.png */; };
+		1F3385DF19521C8900055E74 /* icon1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385D819521C8900055E74 /* icon1600.png */; };
+		1F3385E019521C8900055E74 /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385D919521C8900055E74 /* icon29.png */; };
+		1F3385E119521C8900055E74 /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385DA19521C8900055E74 /* icon40.png */; };
+		1F3385E219521C8900055E74 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385DB19521C8900055E74 /* icon58.png */; };
+		1F3385E319521C8900055E74 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385DC19521C8900055E74 /* icon76.png */; };
+		1F3385E419521C8900055E74 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3385DD19521C8900055E74 /* icon80.png */; };
+		1F3385E71953605900055E74 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3385E61953605900055E74 /* AudioController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,21 @@
 		1F33859F1950B8CE00055E74 /* METScopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "METScopeTests-Info.plist"; sourceTree = "<group>"; };
 		1F3385A11950B8CE00055E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F3385A31950B8CE00055E74 /* METScopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = METScopeTests.m; sourceTree = "<group>"; };
+		1F3385AF1950B9AB00055E74 /* METScopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = METScopeView.h; path = METScope/METScopeView.h; sourceTree = "<group>"; };
+		1F3385B01950B9AB00055E74 /* METScopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = METScopeView.m; path = METScope/METScopeView.m; sourceTree = "<group>"; };
+		1F3385C01952085300055E74 /* NVLowpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVLowpassFilter.h; sourceTree = "<group>"; };
+		1F3385C11952085300055E74 /* NVLowpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVLowpassFilter.m; sourceTree = "<group>"; };
+		1F3385C81952085300055E74 /* NVDSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDSP.h; sourceTree = "<group>"; };
+		1F3385C91952085300055E74 /* NVDSP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NVDSP.mm; sourceTree = "<group>"; };
+		1F3385D719521C8900055E74 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		1F3385D819521C8900055E74 /* icon1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1600.png; sourceTree = "<group>"; };
+		1F3385D919521C8900055E74 /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
+		1F3385DA19521C8900055E74 /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		1F3385DB19521C8900055E74 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		1F3385DC19521C8900055E74 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		1F3385DD19521C8900055E74 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		1F3385E51953605900055E74 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioController.h; path = METScope/AudioController.h; sourceTree = "<group>"; };
+		1F3385E61953605900055E74 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioController.m; path = METScope/AudioController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +108,9 @@
 		1F33856C1950B8CE00055E74 = {
 			isa = PBXGroup;
 			children = (
+				1F3385D619521C8900055E74 /* Icons */,
+				1F3385B41952085300055E74 /* NVDSP */,
+				1F3385B31950B9B100055E74 /* Classes */,
 				1F33857E1950B8CE00055E74 /* METScope */,
 				1F33859D1950B8CE00055E74 /* METScopeTests */,
 				1F3385771950B8CE00055E74 /* Frameworks */,
@@ -150,6 +179,50 @@
 				1F3385A01950B8CE00055E74 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F3385B31950B9B100055E74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385E51953605900055E74 /* AudioController.h */,
+				1F3385E61953605900055E74 /* AudioController.m */,
+				1F3385AF1950B9AB00055E74 /* METScopeView.h */,
+				1F3385B01950B9AB00055E74 /* METScopeView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1F3385B41952085300055E74 /* NVDSP */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385B51952085300055E74 /* Filters */,
+				1F3385C81952085300055E74 /* NVDSP.h */,
+				1F3385C91952085300055E74 /* NVDSP.mm */,
+			);
+			path = NVDSP;
+			sourceTree = "<group>";
+		};
+		1F3385B51952085300055E74 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385C01952085300055E74 /* NVLowpassFilter.h */,
+				1F3385C11952085300055E74 /* NVLowpassFilter.m */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		1F3385D619521C8900055E74 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1F3385D719521C8900055E74 /* icon152.png */,
+				1F3385D819521C8900055E74 /* icon1600.png */,
+				1F3385D919521C8900055E74 /* icon29.png */,
+				1F3385DA19521C8900055E74 /* icon40.png */,
+				1F3385DB19521C8900055E74 /* icon58.png */,
+				1F3385DC19521C8900055E74 /* icon76.png */,
+				1F3385DD19521C8900055E74 /* icon80.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +301,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3385E419521C8900055E74 /* icon80.png in Resources */,
+				1F3385E019521C8900055E74 /* icon29.png in Resources */,
+				1F3385E119521C8900055E74 /* icon40.png in Resources */,
+				1F3385DF19521C8900055E74 /* icon1600.png in Resources */,
 				1F3385911950B8CE00055E74 /* Images.xcassets in Resources */,
 				1F3385831950B8CE00055E74 /* InfoPlist.strings in Resources */,
+				1F3385E219521C8900055E74 /* icon58.png in Resources */,
+				1F3385DE19521C8900055E74 /* icon152.png in Resources */,
 				1F33858C1950B8CE00055E74 /* Main.storyboard in Resources */,
+				1F3385E319521C8900055E74 /* icon76.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3385B21950B9AB00055E74 /* METScopeView.m in Sources */,
+				1F3385CF1952085300055E74 /* NVLowpassFilter.m in Sources */,
 				1F33858F1950B8CE00055E74 /* ViewController.m in Sources */,
+				1F3385D31952085300055E74 /* NVDSP.mm in Sources */,
+				1F3385E71953605900055E74 /* AudioController.m in Sources */,
 				1F3385891950B8CE00055E74 /* AppDelegate.m in Sources */,
 				1F3385851950B8CE00055E74 /* main.m in Sources */,
 			);
@@ -458,6 +542,7 @@
 				1F3385A91950B8CE00055E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F3385AA1950B8CE00055E74 /* Build configuration list for PBXNativeTarget "METScopeTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +551,7 @@
 				1F3385AC1950B8CE00055E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

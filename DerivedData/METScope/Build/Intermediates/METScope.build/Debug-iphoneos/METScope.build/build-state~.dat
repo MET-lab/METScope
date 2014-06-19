@@ -1,0 +1,485 @@
+TMETScope
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist
+cProcessPCH /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.pch METScope/METScope-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o /Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o /Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o /Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o /Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o /Users/Jeff/Computering/Xcode/METScope/METScope/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope normal armv7
+cCopyStringsFile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/en.lproj/InfoPlist.strings METScope/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/Jeff/Computering/Xcode/METScope/METScope/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app /Users/Jeff/Computering/Xcode/METScope/METScope/Images.xcassets
+cProcessInfoPlistFile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Info.plist /Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Info.plist
+cGenerateDSYMFile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope
+cProcessProductPackaging /Users/Jeff/Library/MobileDevice/Provisioning\ Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision
+cTouch /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent
+cCodeSign /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c00000000534819490000000000000132
+t1397233993
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531EA1190000000000000094
+t1394516249
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531EA1190000000000000096
+t1394516249
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531EA119000000000000036B
+t1394516249
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531EA11A000000000000019E
+t1394516250
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000534818ED00000000004D7BC0
+t1397233901
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531EA11C0000000000A90C10
+t1394516252
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531EA1230000000002759920
+t1394516259
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531EA1580000000000000ADC
+t1394516312
+s2780
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent
+t1403031231
+s418
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o
+t1403031222
+s61736
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o
+t1403031223
+s36804
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScope.LinkFileList
+c0000000053A08EB30000000000000321
+t1403031219
+s801
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o
+t1403031223
+s159004
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o
+t1403031223
+s53604
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o
+t1403031222
+s3784
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/assetcatalog_dependencies.txt
+t1403031230
+s288
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/assetcatalog_generated_info.plist
+t1403031230
+s181
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.pch
+t1403031222
+s88052
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app
+t1403031231
+s340
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM
+t2
+s0
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Base.lproj/Main.storyboardc
+t1403031226
+s170
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Info.plist
+t1403031230
+s1070
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope
+t1403031226
+s134096
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/PkgInfo
+t1403031230
+s8
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist
+t1403031219
+s150
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision
+t1403031231
+s28908
+
+N/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/en.lproj/InfoPlist.strings
+t1403031226
+s42
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m
+c0000000053A0814E00000000000007DC
+t1403027790
+s2012
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m
+c0000000053A08B3C0000000000003025
+t1403030332
+s12325
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/Base.lproj/Main.storyboard
+c0000000053A08EB30000000000000E3A
+t1403031219
+s3642
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/Images.xcassets
+c0000000053A0814E0000000000000088
+t1403027790
+s136
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Info.plist
+c0000000053A081B2000000000000049D
+t1403027890
+s1181
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Prefix.pch
+c0000000053A0814E0000000000000158
+t1403027790
+s344
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m
+c000000005399FE3F0000000000009753
+t1402601023
+s38739
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m
+c0000000053A08EAD00000000000007D8
+t1403031213
+s2008
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/en.lproj/InfoPlist.strings
+c0000000053A0814E000000000000002D
+t1403027790
+s45
+
+N/Users/Jeff/Computering/Xcode/METScope/METScope/main.m
+c0000000053A0814E0000000000000156
+t1403027790
+s342
+
+N/Users/Jeff/Library/MobileDevice/Provisioning Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision
+c00000000529E489E00000000000070EC
+t1386104990
+s28908
+
+CBuild AST from /Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m
+r0
+
+CBuild AST from /Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m
+r0
+
+CBuild AST from /Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m
+r0
+
+CBuild AST from /Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m
+r0
+
+CBuild AST from /Users/Jeff/Computering/Xcode/METScope/METScope/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescf65c233c650b941^5f07d233c650b941^---0#1#1#--18"Check dependencies36"3E7021C8-96E2-41E2-8EFC-41BA999C16F8-
+
+CCodeSign /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app
+s424724031.238824
+e424724031.720671
+r1
+xCodeSign
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CodeSign DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app72"CodeSign DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app41b8423fc650b941^d07eb83fc650b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/0000000000000000^1095"CodeSign DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app    cd /Users/Jeff/Computering/Xcode/METScope    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Jeff Gregorio (B5745LR2J5)" and provisioning profile "iOS Team Provisioning Profile: *" (1F271939-A99A-4586-A8A9-3B99D7B21BD6)    /usr/bin/codesign --force --sign 66A1BC3631F5F705AAE8FC326C53E875E6011B0E --resource-rules=/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist --entitlements /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app36"79FF9954-930E-4689-9B8C-E871D7EC9579-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCompileAssetCatalog /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app /Users/Jeff/Computering/Xcode/METScope/METScope/Images.xcassets
+s424724026.336350
+e424724030.925738
+r1
+xCompileAssetCatalog
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app
+x/Users/Jeff/Computering/Xcode/METScope/METScope/Images.xcassets
+o2014-06-17 14:53:47.455 IBCocoaTouchImageCatalogTool[2251:303] CFPreferences: user home directory at file:///Users/Jeff/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Assets.car
+o/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CompileAssetCatalog DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app METScope/Images.xcassets108"CompileAssetCatalog DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app METScope/Images.xcassets0038563ac650b941^5dfdec3ec650b941^-539"2014-06-17 14:53:47.455 IBCocoaTouchImageCatalogTool[2251:303] CFPreferences: user home directory at file:///Users/Jeff/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Assets.car/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Jeff/Computering/Xcode/METScope/METScope/Images.xcassets/0000000000000000^1141"CompileAssetCatalog DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app METScope/Images.xcassets    cd /Users/Jeff/Computering/Xcode/METScope    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device ipad --compress-pngs --compile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app /Users/Jeff/Computering/Xcode/METScope/METScope/Images.xcassets36"CE430C00-8783-4A88-9FBE-E6280687DA5C-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o /Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424724022.364826
+e424724023.019610
+r1
+xCompileC
+xDerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o
+x/Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m
+d/Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m221"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o METScope/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilercf815d36c650b941^bb0a0537c650b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m0000000000000000^3781"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o METScope/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeff/Computering/Xcode/METScope    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeff/Computering/Xcode/METScope/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-generated-files.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-own-target-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-all-target-headers.hmap -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-project-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources/armv7 -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources -F/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos -include /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch -MMD -MT dependencies -MF /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.dia -c /Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.m -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o36"0474AD60-0EDC-467E-897F-D12F7BF64071-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o /Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424724022.365147
+e424724023.138958
+r1
+xCompileC
+xDerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o
+x/Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m
+d/Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m229"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o METScope/AudioController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1a75d36c650b941^4f952337c650b941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m0000000000000000^3805"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o METScope/AudioController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeff/Computering/Xcode/METScope    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeff/Computering/Xcode/METScope/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-generated-files.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-own-target-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-all-target-headers.hmap -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-project-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources/armv7 -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources -F/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos -include /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch -MMD -MT dependencies -MF /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.d --serialize-diagnostics /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.dia -c /Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.m -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o36"16CBFFA3-C6C4-4D7F-ACF9-4780DD7C6770-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o /Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424724022.364219
+e424724023.316182
+r1
+xCompileC
+xDerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o
+x/Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m
+d/Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m223"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o METScope/METScopeView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler105c5d36c650b941^0ef45037c650b941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m0000000000000000^3787"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o METScope/METScopeView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeff/Computering/Xcode/METScope    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeff/Computering/Xcode/METScope/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-generated-files.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-own-target-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-all-target-headers.hmap -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-project-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources/armv7 -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources -F/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos -include /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch -MMD -MT dependencies -MF /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.d --serialize-diagnostics /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.dia -c /Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.m -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o36"5875150B-E7BF-40C8-8B39-A07451D54033-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o /Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424724022.364482
+e424724023.156601
+r1
+xCompileC
+xDerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o
+x/Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m
+d/Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.h
+d/Users/Jeff/Computering/Xcode/METScope/METScope/METScopeView.h
+d/Users/Jeff/Computering/Xcode/METScope/METScope/AudioController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m227"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o METScope/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler266e5d36c650b941^5d192837c650b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m0000000000000000^3799"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o METScope/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeff/Computering/Xcode/METScope    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeff/Computering/Xcode/METScope/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-generated-files.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-own-target-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-all-target-headers.hmap -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-project-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources/armv7 -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources -F/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos -include /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch -MMD -MT dependencies -MF /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.dia -c /Users/Jeff/Computering/Xcode/METScope/METScope/ViewController.m -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o36"8175D065-4642-498D-B756-CF59B2899676-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o /Users/Jeff/Computering/Xcode/METScope/METScope/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424724022.365582
+e424724023.004477
+r1
+xCompileC
+xDerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o
+x/Users/Jeff/Computering/Xcode/METScope/METScope/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Computering/Xcode/METScope/METScope/main.m
+d/Users/Jeff/Computering/Xcode/METScope/METScope/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/Jeff/Computering/Xcode/METScope/METScope/main.m207"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o METScope/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8db75d36c650b941^ff250137c650b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/Jeff/Computering/Xcode/METScope/METScope/main.m0000000000000000^3739"CompileC DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o METScope/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeff/Computering/Xcode/METScope    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeff/Computering/Xcode/METScope/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-generated-files.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-own-target-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-all-target-headers.hmap -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-project-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources/armv7 -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources -F/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos -include /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch -MMD -MT dependencies -MF /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.dia -c /Users/Jeff/Computering/Xcode/METScope/METScope/main.m -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o36"B3ADD3CD-3F86-4AF1-9CAE-5FB3897526D9-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCompileStoryboard /Users/Jeff/Computering/Xcode/METScope/METScope/Base.lproj/Main.storyboard
+s424724026.335914
+e424724027.062588
+r1
+xCompileStoryboard
+x/Users/Jeff/Computering/Xcode/METScope/METScope/Base.lproj/Main.storyboard
+o2014-06-17 14:53:46.621 Interface Builder Cocoa Touch Tool[2248:303] CFPreferences: user home directory at file:///Users/Jeff/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"CompileStoryboard METScope/Base.lproj/Main.storyboard53"CompileStoryboard METScope/Base.lproj/Main.storyboard6212563ac650b941^9e06103bc650b941^-228"2014-06-17 14:53:46.621 Interface Builder Cocoa Touch Tool[2248:303] CFPreferences: user home directory at file:///Users/Jeff/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@81"file:///Users/Jeff/Computering/Xcode/METScope/METScope/Base.lproj/Main.storyboard0000000000000000^804"CompileStoryboard METScope/Base.lproj/Main.storyboard    cd /Users/Jeff/Computering/Xcode/METScope    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Base.lproj/Main.storyboardc /Users/Jeff/Computering/Xcode/METScope/METScope/Base.lproj/Main.storyboard36"A7A4723C-C987-4E42-875B-BB8144940887-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCopyStringsFile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/en.lproj/InfoPlist.strings METScope/en.lproj/InfoPlist.strings
+s424724026.335744
+e424724026.340268
+r1
+xCopyStringsFile
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/en.lproj/InfoPlist.strings
+xMETScope/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy METScope/en.lproj/InfoPlist.strings142"CopyStringsFile DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/en.lproj/InfoPlist.strings METScope/en.lproj/InfoPlist.strings9a09563ac650b941^a81c573ac650b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/Jeff/Computering/Xcode/METScope/METScope/en.lproj/InfoPlist.strings0000000000000000^618"CopyStringsFile DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/en.lproj/InfoPlist.strings METScope/en.lproj/InfoPlist.strings    cd /Users/Jeff/Computering/Xcode/METScope    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/en.lproj -- METScope/en.lproj/InfoPlist.strings36"49CB0C6F-B2F0-4765-84A6-9AA56334B3AB-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist
+s424724019.848716
+e424724019.850183
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xDerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist216"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist9e5ed933c650b941^21ccd933c650b941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist0034945addffdf42^788"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist    cd /Users/Jeff/Computering/Xcode/METScope    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app36"C2C59F82-CF75-4E7C-9136-55471633B243-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CGenerateDSYMFile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope
+s424724030.929118
+e424724031.162221
+r1
+xGenerateDSYMFile
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generate /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM158"GenerateDSYMFile DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScopedae7ed3ec650b941^5d88293fc650b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM0034945addffdf42^716"GenerateDSYMFile DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope    cd /Users/Jeff/Computering/Xcode/METScope    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app.dSYM36"456C4123-5EBB-4F14-9120-816C3E4BB15C-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CLd /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope normal armv7
+s424724023.317482
+e424724026.326837
+r1
+xLd
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope
+xnormal
+xarmv7
+d/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScope.LinkFileList
+d/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScopeView.o
+d/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/ViewController.o
+d/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AppDelegate.o
+d/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/AudioController.o
+d/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope88"Ld DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope normal armv7645c5137c650b941^b4ac533ac650b941^---0#0#1#--1406"Ld DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope normal armv7    cd /Users/Jeff/Computering/Xcode/METScope    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos -F/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos -filelist /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScope.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/Objects-normal/armv7/METScope_dependency_info.dat -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/METScope36"78E25CE6-F218-4A5E-B95B-72DEB78B71E8-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CProcessInfoPlistFile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Info.plist /Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Info.plist
+s424724030.926417
+e424724030.928583
+r1
+xProcessInfoPlistFile
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Info.plist
+x/Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Process /Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Info.plist124"ProcessInfoPlistFile DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Info.plist METScope/METScope-Info.plist9739ed3ec650b941^e1b7ed3ec650b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Info.plist0000000000000000^1075"ProcessInfoPlistFile DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Info.plist METScope/METScope-Info.plist    cd /Users/Jeff/Computering/Xcode/METScope    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Info.plist -genpkginfo /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/ResourceRules.plist -additionalcontentfile /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/assetcatalog_generated_info.plist -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/Info.plist36"31410B61-C349-48DC-BF15-220008F31DFD-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CProcessPCH /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.pch METScope/METScope-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424724019.850858
+e424724022.363044
+r1
+xProcessPCH
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.pch
+xMETScope/METScope-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile METScope/METScope-Prefix.pch237"ProcessPCH DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.pch METScope/METScope-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd9ebd933c650b941^7cf25c36c650b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Prefix.pch0000000000000000^3657"ProcessPCH DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.pch METScope/METScope-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeff/Computering/Xcode/METScope    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeff/Computering/Xcode/METScope/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-generated-files.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-own-target-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-all-target-headers.hmap -iquote /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope-project-headers.hmap -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources/armv7 -I/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/DerivedSources -F/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.d -c /Users/Jeff/Computering/Xcode/METScope/METScope/METScope-Prefix.pch -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/PrecompiledHeaders/METScope-Prefix-caznumagwipsqshgcxoqzfmutocs/METScope-Prefix.pch.pch36"2F4B466D-E782-4E45-8001-24EF4151C1D8-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CProcessPCH /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Index/PrecompiledHeaders/METScope-Prefix-dvkgowdfnuosgqbefaypekthsest_ast/METScope-Prefix.pch.pch METScope/METScope-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent
+s424724031.231061
+e424724031.238369
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent66333b3fc650b941^5f083d3fc650b941^---0#0#1#-19%DVTDocumentLocation2@146"file:///Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent0034945addffdf42^806"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent    cd /Users/Jeff/Computering/Xcode/METScope    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Intermediates/METScope.build/Debug-iphoneos/METScope.build/METScope.xcent36"618C461E-FA20-48E5-8FD5-7D5B7D22379B-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CProcessProductPackaging /Users/Jeff/Library/MobileDevice/Provisioning\ Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision
+s424724031.162651
+e424724031.230192
+r1
+xProcessProductPackaging
+x/Users/Jeff/Library/MobileDevice/Provisioning Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision
+x/Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"ProcessProductPackaging /Users/Jeff/Library/MobileDevice/Provisioning\ Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision221"ProcessProductPackaging /Users/Jeff/Library/MobileDevice/Provisioning\ Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovisionc4b2293fc650b941^d0f03a3fc650b941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision0034945addffdf42^732"ProcessProductPackaging /Users/Jeff/Library/MobileDevice/Provisioning\ Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision    cd /Users/Jeff/Computering/Xcode/METScope    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Jeff/Library/MobileDevice/Provisioning\ Profiles/1F271939-A99A-4586-A8A9-3B99D7B21BD6.mobileprovision -o /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app/embedded.mobileprovision36"DBE8647C-8C6D-453A-959A-473873C59B1E-
+bDC7F018E-D08C-4810-AD5C-214D548D6E88
+
+CTouch /Users/Jeff/Computering/Xcode/METScope/DerivedData/METScope/Build/Products/Debug-iphoneos/METScope.app
+r0
+
